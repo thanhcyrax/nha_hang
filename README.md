@@ -53,7 +53,13 @@ PUSHER_APP_ID=
 PUSHER_APP_KEY=
 PUSHER_APP_SECRET=
 
-/*Cấu hình kết nối shopify*/
-SHOPIFY_API_KEY=a522a1cf575540ea6ae1df4c62937f74
-SHOPIFY_SECRET_KEY=00829b3d3039397d7810e5b3b9c98682
+/*Cấu hình kết nối shopify ,lấy 2 key từ shopify*/
+SHOPIFY_API_KEY=a522a1cf575540ea6ae1df4c62937f74     /*API key*/
+SHOPIFY_SECRET_KEY=00829b3d3039397d7810e5b3b9c98682  /*API secret key*/
 ```
+
+#### Lưu ý :
+* **Sau khi xong các bước trên:** Kiểm tra trước kết nối database bằng cách mở **command** trỏ về thư mục gốc và gõ lệnh "php artisan migrate" .Trường hợp bị lỗi thì thử lệnh "php artisan config:clear" rồi chạy lại lệnh "php artisan migrate" ,nếu không được thì kiểm tra lại hoặc tìm cách khác.
+
+
+
