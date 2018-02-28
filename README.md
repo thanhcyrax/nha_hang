@@ -11,9 +11,10 @@ Có thể tải Laravel từ trang chủ [Laravel 5](https://laravel.com/docs/5.
 
 ## Setup Run Local
 *Các Setup này là để hỗ trợ chạy App Shopify là chính*
+
 Sau khi hoàn tất các bước trên ,vào thư mục gốc tạo file ".env" và copy toàn bộ nội dung của file ".env.example" rồi chép vào file '.env' vừa mới tạo.
 
-### Các phần cần chỉnh sửa và lưu ý trong file ".env"
+### Các phần cần chỉnh sửa và cần lưu ý trong file ".env"
 
 ```
 /*Cấu hình cơ bản*/
